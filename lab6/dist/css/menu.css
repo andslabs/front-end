@@ -1,0 +1,147 @@
+@import url("./menu_item.css");
+@import url("__item__border.css");
+.menu__item {
+  -webkit-border-radius: 100% 0 0/19px 0 0;
+  -moz-border-radius: 100% 0 0/19px 0 0;
+  -ms-border-radius: 100% 0 0/19px 0 0;
+  -o-border-radius: 100% 0 0/19px 0 0;
+  border-radius: 100% 0 0/19px 0 0; }
+
+.menu__item.video {
+  background: -owg-linear-gradient(180deg, #19d8ff 0, #1980ff 99%, #0cce16 100%);
+  background: -webkit-linear-gradient(180deg, #19d8ff 0, #1980ff 99%, #0cce16 100%);
+  background: -moz-linear-gradient(180deg, #19d8ff 0, #1980ff 99%, #0cce16 100%);
+  background: -o-linear-gradient(180deg, #19d8ff 0, #1980ff 99%, #0cce16 100%);
+  background: linear-gradient(180deg, #19d8ff 0, #1980ff 99%, #0cce16 100%); }
+
+.menu__item.video:hover {
+  background: -owg-linear-gradient(180deg, #1980ff 0, #1980ff 1%, #19d8ff 100%);
+  background: -webkit-linear-gradient(180deg, #1980ff 0, #1980ff 1%, #19d8ff 100%);
+  background: -moz-linear-gradient(180deg, #1980ff 0, #1980ff 1%, #19d8ff 100%);
+  background: -o-linear-gradient(180deg, #1980ff 0, #1980ff 1%, #19d8ff 100%);
+  background: linear-gradient(180deg, #1980ff 0, #1980ff 1%, #19d8ff 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding;
+  -moz-background-origin: padding;
+  -ms-background-origin: padding;
+  -o-background-origin: padding;
+  background-origin: padding;
+  -webkit-background-clip: border;
+  -moz-background-clip: border;
+  background-clip: border;
+  -webkit-background-size: auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-size: auto auto; }
+
+.menu__item.news {
+  background: -owg-linear-gradient(180deg, #aaff19 0, #0cce16 100%);
+  background: -webkit-linear-gradient(180deg, #aaff19 0, #0cce16 100%);
+  background: -moz-linear-gradient(180deg, #aaff19 0, #0cce16 100%);
+  background: -o-linear-gradient(180deg, #aaff19 0, #0cce16 100%);
+  background: linear-gradient(180deg, #aaff19 0, #0cce16 100%); }
+
+.menu__item.news:hover {
+  background: -owg-linear-gradient(180deg, #0cce16 0, #aaff19 100%);
+  background: -webkit-linear-gradient(180deg, #0cce16 0, #aaff19 100%);
+  background: -moz-linear-gradient(180deg, #0cce16 0, #aaff19 100%);
+  background: -o-linear-gradient(180deg, #0cce16 0, #aaff19 100%);
+  background: linear-gradient(180deg, #0cce16 0, #aaff19 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding;
+  -moz-background-origin: padding;
+  -ms-background-origin: padding;
+  -o-background-origin: padding;
+  background-origin: padding;
+  -webkit-background-clip: border;
+  -moz-background-clip: border;
+  background-clip: border;
+  -webkit-background-size: auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-size: auto auto; }
+
+.menu__item.photo {
+  background: -owg-linear-gradient(180deg, #ffff19 0, #e8b314 100%);
+  background: -webkit-linear-gradient(180deg, #ffff19 0, #e8b314 100%);
+  background: -moz-linear-gradient(180deg, #ffff19 0, #e8b314 100%);
+  background: -o-linear-gradient(180deg, #ffff19 0, #e8b314 100%);
+  background: linear-gradient(180deg, #ffff19 0, #e8b314 100%); }
+
+.menu__item.photo:hover {
+  background: -owg-linear-gradient(180deg, #e8b314 0, #ffff19 100%);
+  background: -webkit-linear-gradient(180deg, #e8b314 0, #ffff19 100%);
+  background: -moz-linear-gradient(180deg, #e8b314 0, #ffff19 100%);
+  background: -o-linear-gradient(180deg, #e8b314 0, #ffff19 100%);
+  background: linear-gradient(180deg, #e8b314 0, #ffff19 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding;
+  -moz-background-origin: padding;
+  -ms-background-origin: padding;
+  -o-background-origin: padding;
+  background-origin: padding;
+  -webkit-background-clip: border;
+  -moz-background-clip: border;
+  background-clip: border;
+  -webkit-background-size: auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-size: auto auto; }
+
+.menu__item.schedule {
+  background: -owg-linear-gradient(180deg, #ff7c19 0, #ea5c15 100%);
+  background: -webkit-linear-gradient(180deg, #ff7c19 0, #ea5c15 100%);
+  background: -moz-linear-gradient(180deg, #ff7c19 0, #ea5c15 100%);
+  background: -o-linear-gradient(180deg, #ff7c19 0, #ea5c15 100%);
+  background: linear-gradient(180deg, #ff7c19 0, #ea5c15 100%); }
+
+.menu__item.schedule:hover {
+  background: -owg-linear-gradient(180deg, #ea5c15 0, #ff7c19 100%);
+  background: -webkit-linear-gradient(180deg, #ea5c15 0, #ff7c19 100%);
+  background: -moz-linear-gradient(180deg, #ea5c15 0, #ff7c19 100%);
+  background: -o-linear-gradient(180deg, #ea5c15 0, #ff7c19 100%);
+  background: linear-gradient(180deg, #ea5c15 0, #ff7c19 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding;
+  -moz-background-origin: padding;
+  -ms-background-origin: padding;
+  -o-background-origin: padding;
+  background-origin: padding;
+  -webkit-background-clip: border;
+  -moz-background-clip: border;
+  background-clip: border;
+  -webkit-background-size: auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-size: auto auto; }
+
+.menu__item.home {
+  background: -owg-linear-gradient(180deg, #ff3019 0, #cf0404 100%), #0199d9;
+  background: -webkit-linear-gradient(180deg, #ff3019 0, #cf0404 100%), #0199d9;
+  background: -moz-linear-gradient(180deg, #ff3019 0, #cf0404 100%), #0199d9;
+  background: -o-linear-gradient(180deg, #ff3019 0, #cf0404 100%), #0199d9;
+  background: linear-gradient(180deg, #ff3019 0, #cf0404 100%), #0199d9; }
+
+.menu__item.home:hover {
+  background: -owg-linear-gradient(180deg, #cf0404 0, #ff3019 100%);
+  background: -webkit-linear-gradient(180deg, #cf0404 0, #ff3019 100%);
+  background: -moz-linear-gradient(180deg, #cf0404 0, #ff3019 100%);
+  background: -o-linear-gradient(180deg, #cf0404 0, #ff3019 100%);
+  background: linear-gradient(180deg, #cf0404 0, #ff3019 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding;
+  -moz-background-origin: padding;
+  -ms-background-origin: padding;
+  -o-background-origin: padding;
+  background-origin: padding;
+  -webkit-background-clip: border;
+  -moz-background-clip: border;
+  background-clip: border;
+  -webkit-background-size: auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-size: auto auto; }
+
+.menu__item a {
+  text-decoration: none !important;
+  color: white !important; }

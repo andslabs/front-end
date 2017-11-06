@@ -1,0 +1,30 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "lab7",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "gulp": "gulp"
+  },
+  "author": "me",
+  "license": "ISC",
+  "keywords": "",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "*",
+    "es6-promise": "*",
+    "gulp": "*",
+    "gulp-clean-css": "*",
+    "gulp-jade": "*",
+    "gulp-jade-sass-starter": "^0.1.0",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-sass": "*",
+    "gulp-stylus": "*",
+    "node-sass": "^4.5.3"
+  }
+}

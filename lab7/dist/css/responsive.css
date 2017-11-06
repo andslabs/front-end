@@ -1,0 +1,35 @@
+@media screen and (max-width: 960px) {
+  body {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  ul {
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav {
+    margin: auto !important;
+  }
+
+  .menu {
+    margin: auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__item {
+    width: 100%;
+  }
+}

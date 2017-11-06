@@ -1,0 +1,17 @@
+@media print {
+  * {
+    color: black; }
+  html {
+    font-family: 'Times New Roman'; }
+  body {
+    margin: 0 50px 0 50px; }
+  h1, h2, h3, h4, h5, h6, p, span, div, li, ul, a {
+    color: black; }
+  img {
+    display: none; }
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+  .menu {
+    display: none; }
+  .to-begin {
+    display: none; } }

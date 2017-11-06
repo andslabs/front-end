@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i&subset=cyrillic");
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #aaccff;
+  background-image: -moz-linear-gradient(#aaccff, #fff);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#aaccff), to(#fff));
+  background-image: -webkit-linear-gradient(#aaccff, #fff);
+  background-image: -o-linear-gradient(#aaccff, #fff);
+}
+
+body {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  color: #7B1904;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  color: #9A4D3D;
+  font-size: 1.5em;
+  margin: 0.83em 0 0.83em 0;
+}
+
+h3 {
+  color: #F6AC9C;
+}
+
+h4,
+h5,
+h6 {
+  color: #F67C62;
+}
+
+a:hover {
+  color: #F6AC9C;
+}
+
+ul,
+ol,
+dl {
+  padding-left: 20px;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+dt {
+  color: #F6AC9C;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #F6AC9C;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  margin-top: 30px;
+}
+
+.to-begin {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #F00;
+  border: 1px solid #F67C62;
+  border-radius: 5px;
+}

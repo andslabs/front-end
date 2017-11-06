@@ -1,0 +1,16 @@
+.menu__item {
+  -webkit-border-radius: 100% 0 0px 0 0;
+  -moz-border-radius: 100% 0 0px 0 0;
+  border-radius: 100% 0 0px 0 0;
+}
+.base {
+  position: relative;
+  width: 100% !important;
+  height: auto;
+  margin-bottom: 10px !important;
+  padding: 10px 10px !important;
+  border: none !important;
+  font: normal 16px/1 "Times New Roman", Times, serif !important;
+  -o-text-overflow: ellipsis !important;
+  text-overflow: ellipsis !important;
+}

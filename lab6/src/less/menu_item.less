@@ -1,0 +1,42 @@
+@import "../../node_modules/bootstrap/less/mixins.less";
+@import "./less_mixins.less";
+
+.menu{
+  &__item {
+    .box-sizing(border-box);
+    display: inline-block;
+    width: 110px !important;
+    padding: 11px 8px 5px;
+    margin-bottom: -4px;
+    margin-left: -4px;
+    overflow: hidden !important;
+    border: none !important;
+    -webkit-border-radius: 100% 0 0 / 19px 0 0;
+    border-radius: 100% 0 0 / 19px 0 0;
+    font: normal normal bold 15px/1 "Times New Roman", Times, serif;
+    color: white !important;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: -webkit-linear-gradient(-90deg, rgb(25,216,255) 0, rgb(25,128,255) 99%, rgb(12,206,22) 100%), rgba(0,0,0,0);
+    background: -moz-linear-gradient(180deg, rgb(25,216,255) 0, rgb(25,128,255) 99%, rgb(12,206,22) 100%), rgba(0,0,0,0);
+    background: linear-gradient(180deg, rgb(25,216,255) 0, rgb(25,128,255) 99%, rgb(12,206,22) 100%), rgba(0,0,0,0);
+    background-position: 50% 50%;
+    -webkit-background-origin: padding;
+    background-origin: padding;
+    -webkit-background-clip: border;
+    background-clip: border;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    .box-shadow(2px 2px 4px 1px rgba(91,90,90,0.59) );
+    text-shadow: 3px 1px 1px rgb(61,59,59) ;
+  }
+}
+
+.base {
+  .box-sizing(border-box);
+  .border-radius(4px);
+  .background(#f5f5f5);
+  .box-shadow(0 2px 2px 2px rgba(130,130,130,0.5) );
+  .text-shadow(1px 1px 1px rgba(0,0,0,0.2) );
+}

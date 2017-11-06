@@ -1,0 +1,26 @@
+extends layouts/layout
+include ./mixin/mixins
+
+block page_title
+	|Photo Album
+block page
+	content
+		section
+			article
+				header
+					h4 Some random photos from free photo stocks
+					p
+						small Published
+							time(datetime="2017-07-18T17:25:15+03:00") 18.07.2017
+				content
+					+photo("https://www.pexels.com/photo/back-view-bavaria-blue-skies-dawn-442550/", "Uniting With Nature", "Uniting With Nature", "./images/Nature Uniting.jpeg", "Reuniting with nature...")
+					
+					+photo("https://www.pexels.com/photo/adult-blur-books-close-up-261909/", "Addicted To Learning", "Addicted To Learning", "./images/addicted-to-learning.jpeg", "Learning addiction...")
+					+photo("https://www.pexels.com/photo/access-business-computer-connection-454507/", "Programmer's Mobility", "Programmer's Mobility", "./images/programmer.jpeg", "Programmer's style.")
+					+photo("https://www.pexels.com/photo/body-of-water-surrounded-by-green-leaf-trees-507181/", "Parks Life", "Parks Life", "./images/park.jpeg", "Park's calm.")
+					+photo("https://www.pexels.com/photo/business-computers-conference-cooby-485279/", "Programmers Complain", "Programmers Complain", "./images/complain.png", "Programmer's are complaining.")
+					+photo("https://www.pexels.com/photo/autumn-autumn-leaf-autumn-leaves-beautiful-371364/", "Autumn's near", "Autumn's near", "./images/autumn.jpeg", "Autumn's near.")
+					+photo("https://www.pexels.com/photo/cold-conifer-dawn-dusk-341388/", "Winter's Night", "Winter's Night", "./images/winter1.jpeg", "Winter's night.")
+					+photo("https://www.pexels.com/photo/cold-conifers-fog-forest-267106/", "Our Beautiful Winter", "Our Beautiful Winter", "./images/winter2.jpeg", "Our beautiful winter.")
+					+photo("https://www.pexels.com/photo/architecture-bank-blue-buildings-276484/", "Beautiful Switzerland", "Beautiful Switzerland", "./images/swiss.jpeg", "Beautiful Switzerland.")
+					+photo("https://www.pexels.com/photo/alps-blur-car-drive-457432/", "Looking Back", "Looking Back", "./images/back.jpeg", "Looking back sometimes is so useful...")

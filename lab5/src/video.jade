@@ -1,0 +1,26 @@
+extends layouts/layout
+
+block page_title 
+	|Video
+
+block page
+	content
+		section
+			article
+				header
+					h4 Some sogns for chilling out in the time off
+					p
+						small Published
+							time(datetime="2017-07-18T17:25:15+03:00") 18.07.2017
+				content
+					video(align="left" height="480" width="auto" controls poster="./images/slavic.jpg")
+						source(src="./video/Oh My, My.mp4" type="video/mp4")
+						We are sorry, your browser does not support video tag. Try to change it.
+					h4 Christian chorale song 'Oh My, My'
+					br
+					br
+					iframe(height="480" width="63.5%" src="https://www.youtube.com/embed/LXZxDYHfVk8")
+					h4 Alan Walker - Alone (Anthony Keyrouz & Henri Purnell ft. Romy Wave Remix)
+					br
+					embed(height="480" width="63.6%" src="https://www.youtube.com/embed/O8QWPR2Cp7I")
+					h4 Мариетта Вейс - Допоки б'ється серце (Lyric video)

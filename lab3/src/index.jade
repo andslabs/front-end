@@ -1,0 +1,54 @@
+extends layouts/layout
+include ./mixin/mixins
+
+	block page_title
+		|Personal page (blog) of Andrii Dubovyk
+	block page
+		content
+			section
+				article
+					header
+						img(alt="My Bio" title="My Bio" height="200" width="230" src="./images/quote44.jpg")
+						h4 My Bio
+						p
+							small Published
+								time(datetime="2017-07-18T17:25:15+03:00") 18.07.2017
+					content
+						p
+							|I think, it won't be the bio, just a little myself description with a passing notice. 
+							|Positive, ambitious, politically active, independent from majority's opinion, 
+							|hard-working, addicted to new knowledge, am learning at the 
+							abbr(title="Zaporizhzhia National Uniersity") ZNU 
+							| Next will be the auto text:
+						p
+							|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt neque 
+							|vel eleifend feugiat. Sed in scelerisque dui. Nam iaculis ullamcorper dolor, quis 
+							|hendrerit lorem aliquet nec. Etiam facilisis mollis nunc eget luctus. Sed finibus 
+							|metus eu ipsum egestas eleifend. Fusce dui turpis, congue nec maximus id, lacinia id 
+							|dui. Praesent et euismod urna. Ut pretium lorem a tortor aliquam, vitae porttitor 
+							|nibh dapibus. Pellentesque vehicula, tortor sit amet molestie maximus, lacus urna 
+							|gravida lectus, quis vulputate urna mauris semper sapien. Cras iaculis suscipit dolor 
+							|eu interdum. Aenean finibus ullamcorper leo, sit amet interdum lorem tempus sit amet. 
+							|Maecenas ac venenatis tellus. Praesent ultricies purus maximus tristique gravida. Sed 
+							|auctor id arcu non elementum. Nullam vel neque tincidunt, posuere leo sit amet, 
+							|pretium magna.
+			section
+				article
+					header
+						h4 My interests
+						p
+							small Published
+								time(datetime="2017-07-18T17:25:15+03:00") 18.07.2017
+					content
+						p As everything, top secret...
+						p 
+							|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt neque 
+							|vel eleifend feugiat. Sed in scelerisque dui. Nam iaculis ullamcorper dolor, quis 
+							|hendrerit lorem aliquet nec. Etiam facilisis mollis nunc eget luctus. Sed finibus 
+							|metus eu ipsum egestas eleifend. Fusce dui turpis, congue nec maximus id, lacinia id 
+							|dui. Praesent et euismod urna. Ut pretium lorem a tortor aliquam, vitae porttitor 
+							|nibh dapibus. Pellentesque vehicula, tortor sit amet molestie maximus, lacus urna 
+							|gravida lectus, quis vulputate urna mauris semper sapien. Cras iaculis suscipit dolor 
+							|eu interdum. Aenean finibus ullamcorper leo, sit amet interdum lorem tempus sit amet. 
+							|Maecenas ac venenatis tellus. Praesent ultricies purus maximus tristique gravida. Sed 
+							|auctor id arcu non elementum. Nullam vel neque tincidunt, posuere leo sit amet, 
