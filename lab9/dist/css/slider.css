@@ -1,0 +1,98 @@
+body {
+  display: block;
+  margin: 50px auto; }
+
+.slider {
+  margin: auto;
+  padding: 0 !important;
+  width: 800px;
+  height: 533px;
+  position: relative;
+  overflow: hidden; }
+  .slider__control {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+    height: 533px;
+    width: 10%;
+    color: white;
+    font: normal normal bold 16px/1 "Times New Roman", Times, serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    color: #ede8e8;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; }
+
+#Prev {
+  left: 0px;
+  position: absolute;
+  cursor: pointer; }
+  #Prev:hover {
+    background: -owg-linear-gradient(90deg, black 0, transparent 100%);
+    background: -webkit-linear-gradient(90deg, black 0, transparent 100%);
+    background: -moz-linear-gradient(90deg, black 0, transparent 100%);
+    background: -o-linear-gradient(90deg, black 0, transparent 100%);
+    background: linear-gradient(90deg, black 0, transparent 100%);
+    background-position: 50% 50%;
+    -webkit-background-clip: border;
+    -moz-background-clip: border;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    -moz-background-size: auto auto;
+    -o-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s; }
+
+#Next {
+  right: 0px;
+  content: '\25B6';
+  z-index: 10;
+  position: absolute;
+  cursor: pointer; }
+  #Next:hover {
+    background: -owg-linear-gradient(90deg, transparent 0, black 100%);
+    background: -webkit-linear-gradient(90deg, transparent 0, black 100%);
+    background: -moz-linear-gradient(90deg, transparent 0, black 100%);
+    background: -o-linear-gradient(90deg, transparent 0, black 100%);
+    background: linear-gradient(90deg, transparent 0, black 100%);
+    background-position: 50% 50%;
+    -webkit-background-clip: border;
+    -moz-background-clip: border;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    -moz-background-size: auto auto;
+    -o-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s; }
+
+.container__list {
+  display: block;
+  width: 9999px;
+  list-style-type: none;
+  padding: 0; }
+  .container__list__item {
+    float: left;
+    padding: 0; }
+    .container__list__item img {
+      display: block;
+      padding: 0 !important; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
