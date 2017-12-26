@@ -1,0 +1,140 @@
+@import "../../node_modules/compass-mixins/lib/_compass.scss";
+
+body{
+	display: block;
+	margin: 50px auto;
+}
+
+.slider{
+	ul, li, img, span {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+
+	margin: auto;
+	width: 800px;
+	height: auto;
+	outline: 1px solid red;
+	position: relative;
+	overflow: hidden;
+
+	&__control{
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		z-index: 10;
+		height: 533px;
+		width: 10%;
+		color: rgba(255,255,255,1);
+		font: normal normal bold 16px/1 "Times New Roman", Times, serif;
+		@include text-shadow(4px 4px 6px rgba(0,0,0,0.5));
+		color: rgba(237,232,232,1);
+		-o-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+	}
+}
+
+
+#left-control{
+	left: 0px;
+
+	&:hover{
+		@include background(linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,0) 100%));
+		background-position: 50% 50%;
+		@include background-clip(border-box);
+		@include background-size(auto auto);
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1s;
+		animation-name: fade;
+		animation-duration: 1s;
+	}
+}
+
+#right-control{
+	right: 0px;
+	content: '\25B6';
+	z-index: 10;
+	
+	
+	&:hover{
+		@include background(linear-gradient(90deg, rgba(0,0,0,0) 0, rgba(0,0,0,1) 100%));
+		background-position: 50% 50%;
+		@include background-clip(border-box);
+		@include background-size(auto auto);
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1s;
+		animation-name: fade;
+		animation-duration: 1s;
+	}
+}
+
+.container{
+	width: 9999px;
+	position: relative;
+
+	&__list{
+		list-style: none;
+
+		
+		&__item{
+			float: left;
+
+			/*-moz-animation-name: slide;
+			-moz-animation-duration: 2000ms;
+			-moz-animation-iteration-count: 1;
+
+			-ms-animation-name: slide;
+			-ms-animation-duration: 2s;
+			-ms-animation-iteration-count: 1;
+
+			-o-animation-name: slide;
+			-o-animation-duration: 2s;
+			-o-animation-iteration-count: 1;
+
+			-webkit-animation-name: slide;
+			-webkit-animation-duration: 2s;
+			-webkit-animation-iteration-count: 1;*/
+
+			animation-fill-mode: both;
+
+			& img {
+				display: block;
+			}
+		}
+	}
+}
+
+/*@-moz-keyframes slide {
+	0% {-moz-transform:translateX(0px);}
+	100% {-moz-transform:translateX(0px);}
+}
+@-ms-keyframes slide {
+	0% {-ms-transform:translateX(0px);}
+	100% {-ms-transform:translateX(0px);}
+}
+@-o-keyframes slide {
+	0% {-o-transform:translateX(0px);}
+	100% {-o-transform:translateX(0px);}
+}
+@-webkit-keyframes slide {
+	0% {-webkit-transform:translateX(0px);}
+	100% {-webkit-transform:translateX(0px);}
+}*/
+
+@keyframes slideFirst {
+}
+
+@keyframes slideSecond {
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}

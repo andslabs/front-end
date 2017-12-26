@@ -1,0 +1,36 @@
+extends layouts/layout
+include ./mixin/mixins 
+
+block _style
+	+cssAdd('./css/slider.css')
+block page_title
+		|Slider
+	block page
+		.slider
+			div(id="main-container" class="container" data-slides-number="5" data-container-width="800px" data-slide-direction="left")
+				ul.container__list
+					li(class="container__list__item" data-current-slide="1")
+						+imgAdd('./images/Mustang/ford_mustang__01.jpg')
+					li(class="container__list__item" data-current-slide="2")
+						+imgAdd('./images/Mustang/ford_mustang__02.jpg')
+					li(class="container__list__item" data-current-slide="3")
+						+imgAdd('./images/Mustang/ford_mustang__03.jpg')
+					li(class="container__list__item" data-current-slide="4")
+						+imgAdd('./images/Mustang/ford_mustang__04.jpg')
+					li(class="container__list__item" data-current-slide="5")
+						+imgAdd('./images/Mustang/ford_mustang__05.jpg')
+					li(class="container__list__item" data-current-slide="6")
+						+imgAdd('./images/Mustang/ford_mustang__06.jpg')
+					li(class="container__list__item" data-current-slide="7")
+						+imgAdd('./images/Mustang/ford_mustang__07.jpg')
+					li(class="container__list__item" data-current-slide="8")
+						+imgAdd('./images/Mustang/ford_mustang__08.jpg')
+					li(class="container__list__item" data-current-slide="9")
+						+imgAdd('./images/Mustang/ford_mustang__09.jpg')
+					li(class="container__list__item" data-current-slide="10")
+						+imgAdd('./images/Mustang/ford_mustang__10.jpg')
+			a(id="left-control" class="slider__control" onClick="scrollReverse()")
+				| &lang;
+			a(id="right-control" class="slider__control" onClick="scrollNormal()")
+				| &rang;
+		script(src="./js/andrew-slider.js")
