@@ -1,0 +1,28 @@
+mixin news_section(image, time, head, cont, link)
+	section
+		article
+			header
+				hr
+				img(height="200" width="350" src="#{image}")
+				p
+					small Published
+						time(datetime="#{time}") #{time}
+				h3 #{head}
+			content
+				p #{cont}
+			footer
+				small View the full original article you can 
+					a(href="#{link}") here
+			br
+
+mixin photo(lnk, img_title, img_alt, img_src, img_figcaption)
+	figure
+		a(href="#{lnk}" target="_blank")
+			img(title="#{img_title}" alt="#{img_alt}" src="#{img_src}" height="240" width="350")
+		figcaption #{img_figcaption}
+
+mixin cssAdd(css_lnk)
+	link(rel="stylesheet" type="text/css" href="#{css_lnk}")
+
+mixin imgAdd(_src)
+	img(src="#{_src}")

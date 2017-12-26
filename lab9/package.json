@@ -1,0 +1,40 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "lab9",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "gulp": "gulp"
+  },
+  "author": "me",
+  "license": "ISC",
+  "keywords": "",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "*",
+    "compass-mixins": "*",
+    "es6-promise": "*",
+    "gulp": "*",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "*",
+    "gulp-jade": "*",
+    "gulp-jade-sass-starter": "^0.1.0",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-sass": "*",
+    "node-sass": "^4.5.3",
+    "webpack": "^3.8.1",
+    "gulp-webpack": "*"
+  },
+  "dependencies": {
+    "create-keyframe": "^1.0.2",
+    "insert-styles": "^1.2.1",
+    "rekapi": "^2.0.6"
+  }
+}

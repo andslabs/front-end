@@ -1,0 +1,60 @@
+extends layouts/layout
+include ./mixin/mixins
+
+block page_title
+	| University Shedule
+
+block _style
+	style table, th, td { border: 1px solid black; }
+
+block page
+	p Proffesors:
+	ul
+		li Lisnyak A.
+		li Kovalenko R.
+		li Myltsev A.
+		li Panasenko E.
+		li Choporov S.
+		li Kozlova O.
+		li Levchuk S.
+
+
+	table(border="1")
+		thead
+			tr
+				td
+				td Tuesday
+				td Webnesday
+				td Thuesday
+				td Friday
+				td Saturday
+		tbody
+			tr
+				td 9:35
+				td
+				td
+				td
+				td
+				td Probability Theory (practice)
+			tr
+				td 11:25
+				td 
+				td 
+				td Probability Theory (lection)
+				td Basic of Software Engeneering
+				td Software Designing (lection)
+			tr
+				td 12:55
+				td Front-end Technologies (lection)
+					hr
+				td Programming Practice
+				td Programming Practice
+				td Basic of Software Engeneering
+				td Softwa Designing (practice)
+			tr
+				td 14:30
+				td Front-end Technoloogies (practice)
+				td Programming Practice
+				td Basic of Software Engeneering (lection)
+				td Foreign Language
+				td 

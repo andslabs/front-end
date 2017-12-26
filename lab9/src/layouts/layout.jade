@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		meta(http-equiv="Content-Type" content="text/html" charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title
+			block page_title
+		link(rel="stylesheet" type="text/css" href="./css/reset.css")
+		link(rel="stylesheet" type="text/css" href="./css/style.css")
+		link(rel="stylesheet" type="text/css" href="./css/menu.css")
+		link(rel="stylesheet" type="text/css" href="./css/print.css" media="print")
+		link(rel="stylesheet" type="text/css" href="./css/responsive.css")
+		block _style
+	body
+		include ../template/header
+		.base
+			block page
+		include ../template/aside
+		include ../template/footer
