@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="./css/slider.css"/>
+  </head>
+  <body>
+    <header><!--[if lte IE 7]>
+      <p class="ie-message">IE7 or lower found! A lot of css styles and other stuff might display wrong!</p><![endif]-->
+      <h1>Personal page (blog) of Andrii Pavlovych</h1>
+      <nav>
+        <ul class="menu">
+          <li class="menu__item menu__item__home"><a href="index.html">Home Page</a></li>
+          <li class="menu__item menu__item__schedule"><a href="rozklad.html">My schedule</a></li>
+          <li class="menu__item menu__item__photo"><a href="photo.html">Photo album</a></li>
+          <li class="menu__item menu__item__news"><a href="news.html">Last news</a></li>
+          <li class="menu__item menu__item__video"><a href="video.html">Video</a></li>
+          <li class="menu__item menu__item__slider"><a href="slider.html">Slider</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="base">
+      <div class="slider">
+        <div id="main-container" data-slides-number="5" data-container-width="800px" data-slide-direction="left" class="container">
+          <ul class="container__list">
+            <li data-current-slide="1" class="container__list__item"><img src="./images/Mustang/ford_mustang__01.jpg"/>
+            </li>
+            <li data-current-slide="2" class="container__list__item"><img src="./images/Mustang/ford_mustang__02.jpg"/>
+            </li>
+            <li data-current-slide="3" class="container__list__item"><img src="./images/Mustang/ford_mustang__03.jpg"/>
+            </li>
+            <li data-current-slide="4" class="container__list__item"><img src="./images/Mustang/ford_mustang__04.jpg"/>
+            </li>
+            <li data-current-slide="5" class="container__list__item"><img src="./images/Mustang/ford_mustang__05.jpg"/>
+            </li>
+            <li data-current-slide="6" class="container__list__item"><img src="./images/Mustang/ford_mustang__06.jpg"/>
+            </li>
+            <li data-current-slide="7" class="container__list__item"><img src="./images/Mustang/ford_mustang__07.jpg"/>
+            </li>
+            <li data-current-slide="8" class="container__list__item"><img src="./images/Mustang/ford_mustang__08.jpg"/>
+            </li>
+            <li data-current-slide="9" class="container__list__item"><img src="./images/Mustang/ford_mustang__09.jpg"/>
+            </li>
+            <li data-current-slide="10" class="container__list__item"><img src="./images/Mustang/ford_mustang__10.jpg"/>
+            </li>
+          </ul>
+        </div><a id="left-control" onClick="scrollReverse()" class="slider__control">&lang;</a><a id="right-control" onClick="scrollNormal()" class="slider__control">&rang;</a>
+      </div>
+      <script src="./js/andrew-slider.js"></script>
+    </div>
+    <aside>
+      <h5>About author...
+        <blockquote>
+          If you gotta start somewhere why not here? If you gotta start sometime why not now? If we gotta
+          start somewhere I'll say here, If we gotta start sometime I'll say now. Impossible is nothing,
+          whatever it takes...
+        </blockquote>
+        <p>Original words you can find <a href="http://www.azlyrics.com/lyrics/tobymac/cityonourknees.html">here</a></p>
+      </h5>
+    </aside>
+    <footer class="footer">
+      <p>Copyright &copy; 2017 Andrii Pavlovych. All rights reserved.</p><a href="#" class="to-begin">&#x25B2;</a>
+    </footer>
+  </body>
+</html>
